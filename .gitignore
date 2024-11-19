@@ -1,2 +1,5 @@
 .venv
 .idea
+tarefas/__pycache__
+tarefas/migrations/__pycache__
+lista_de_tarefas_be_n/__pycache__
