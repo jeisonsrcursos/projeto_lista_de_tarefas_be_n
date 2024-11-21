@@ -1,9 +1,0 @@
-tarefa_1:
-  id: 1
-  titulo: "Passear"
-  descricao: "Passear no final de semana."
-
-tarefa_2:
-  id: 1
-  titulo: "Passear 2"
-  descricao: "Passear durante a semana."

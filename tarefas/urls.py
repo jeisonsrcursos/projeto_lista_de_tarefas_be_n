@@ -3,11 +3,9 @@ from rest_framework import routers
 
 from tarefas.views import ListarCriarTarefaView, EditarBuscarDeletarTarefaView, TarefaView
 
-router = routers.DefaultRouter();
-router.register(r'tarefas', TarefaView, basename='crud-tarefas')
 
+# API V1
 urlpatterns = [
-    # API V1
     path(
         'tarefa/',
         ListarCriarTarefaView.as_view(),
@@ -19,3 +17,7 @@ urlpatterns = [
         name='editar-buscar-deletar-tarefa-view'
     )
 ]
+
+# API V2
+router = routers.DefaultRouter();
+router.register(r'tarefa', TarefaView, basename='crud-tarefas')
